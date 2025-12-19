@@ -1,0 +1,14 @@
+# Database migration repository
+
+This directory contains database migration scripts for managing schema changes over time.
+
+## Usage
+
+- Initialize migrations: `flask db init`
+- Create migration: `flask db migrate -m "migration message"`
+- Apply migrations: `flask db upgrade`
+- Revert migration: `flask db downgrade`
+
+## Migrations
+
+The `versions/` directory contains individual migration scripts in chronological order.
